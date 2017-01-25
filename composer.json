@@ -1,0 +1,21 @@
+{
+  "name": "rjsandim/tdd-by-example",
+  "description": "Codding the examples available in Kent's Beck book.",
+  "minimum-stability": "dev",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Rafael Sandim",
+      "email": "rjsandim@gmail.com"
+    }
+  ],
+  "config": {
+    "vendor-dir": "Vendor"
+  },
+  "require": {
+    "phpunit/phpunit": "^5.7"
+  },
+  "autoload": {
+    "classmap": ["Source/", "Tests/"]
+  }
+}
