@@ -2,20 +2,20 @@
 
 namespace Source\Chapter01;
 
-
+//Chapter 01 - Dinheiro multi-moeda
 class Dollar
 {
 
-    private $value;
+    public $amount;
 
     public function __construct(int $amount)
     {
-        $this->value = $amount;
+       $this->amount = $amount;
     }
 
-    public function toEuro()
+    public function times(int $multiplier)
     {
-        return $this->value * 1.5;
+        $this->amount *= $multiplier;
     }
 
 }

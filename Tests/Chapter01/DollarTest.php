@@ -9,13 +9,13 @@ use Source\Chapter01\Dollar;
 class DollarTest extends PHPUnit_Framework_TestCase
 {
 
-    public function test_must_run() {
+    public function test_must_multiply_two_dollars() {
 
-        $dolar = new Dollar(10);
+        $five = new Dollar(5);
 
-        $result = $dolar->toEuro();
+        $five->times(2);
 
-        $this->assertEquals(15, $result);
+        $this->assertEquals(10, $five->amount);
 
     }
 
