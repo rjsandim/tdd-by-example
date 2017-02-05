@@ -35,4 +35,13 @@ It's a repository about my study about TDD following the examples available on K
 
 ## Capítulo 05: Falando Francamente
 
-Em breve.
+- Ainda precisamos criar um modo de converter Francos para Dolar, isso pode parecer um grande salto. Porém, se fizermos que um objeto franco se comporte igual a um objeto Dolar, estaremos mais próximos do nosso objetivo.
+- O menor passo que podemos dar neste momento é copiar todo codigo de Dolar e adaptar para Francos.
+- As fases do TDD têm diferentes propósitos. Elas requerem tipos diferentes de solução e de perspectiva estéticas.
+    - Escrever um teste, fazer ele compilar, rodar e vê-lo falhar: precisamos passar por isso rapidamente, assim chegamos ao estado conhecido como "nova funcionalidade". Podemos cometer qualquer pecado para chegar nessa fase, pois a velocidade, nesse momento, é o melhor para o projeto.
+    - Faça-o rodar, faça-o direito.
+    - Prometemos a nós mesmos que não iríamos para casa até a duplicação ter sumido.
+    
+## Capitulo 06: Igualdade para Todos, Restaurada
+
+Em breve!
