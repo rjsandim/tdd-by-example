@@ -44,4 +44,10 @@ It's a repository about my study about TDD following the examples available on K
     
 ## Capitulo 06: Igualdade para Todos, Restaurada
 
-Em breve!
+- Movemos passo a passo código comum para uma superclasse.
+- Conciliamos as duas implementações de equals antes de eliminar a redundante.
+
+## Capitulo 07: Maças e Laranjas
+
+- em breve!
+
